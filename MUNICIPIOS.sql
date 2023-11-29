@@ -1,0 +1,1342 @@
+SET DEFINE OFF;
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (1, 'Alto Orinoco', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (2, 'Atabapo', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (3, 'Atures', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (4, 'Autana', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (5, 'Manapiare', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (6, 'Maroa', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (7, 'Río Negro', 1);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (8, 'Anaco', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (9, 'Aragua', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (10, 'Manuel Ezequiel Bruzual', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (11, 'Diego Bautista Urbaneja', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (12, 'Fernando Peñalver', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (13, 'Francisco Del Carmen Carvajal', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (14, 'General Sir Arthur McGregor', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (15, 'Guanta', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (16, 'Independencia', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (17, 'José Gregorio Monagas', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (18, 'Juan Antonio Sotillo', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (19, 'Juan Manuel Cajigal', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (20, 'Libertad', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (21, 'Francisco de Miranda', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (22, 'Pedro María Freites', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (23, 'Píritu', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (24, 'San José de Guanipa', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (25, 'San Juan de Capistrano', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (26, 'Santa Ana', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (27, 'Simón Bolívar', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (28, 'Simón Rodríguez', 2);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (29, 'Achaguas', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (30, 'Biruaca', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (31, 'Muñóz', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (32, 'Páez', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (33, 'Pedro Camejo', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (34, 'Rómulo Gallegos', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (35, 'San Fernando', 3);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (36, 'Atanasio Girardot', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (37, 'Bolívar', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (38, 'Camatagua', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (39, 'Francisco Linares Alcántara', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (40, 'José Ángel Lamas', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (41, 'José Félix Ribas', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (42, 'José Rafael Revenga', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (43, 'Libertador', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (44, 'Mario Briceño Iragorry', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (45, 'Ocumare de la Costa de Oro', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (46, 'San Casimiro', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (47, 'San Sebastián', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (48, 'Santiago Mariño', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (49, 'Santos Michelena', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (50, 'Sucre', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (51, 'Tovar', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (52, 'Urdaneta', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (53, 'Zamora', 4);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (54, 'Alberto Arvelo Torrealba', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (55, 'Andrés Eloy Blanco', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (56, 'Antonio José de Sucre', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (57, 'Arismendi', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (58, 'Barinas', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (59, 'Bolívar', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (60, 'Cruz Paredes', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (61, 'Ezequiel Zamora', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (62, 'Obispos', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (63, 'Pedraza', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (64, 'Rojas', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (65, 'Sosa', 5);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (66, 'Caroní', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (67, 'Cedeño', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (68, 'El Callao', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (69, 'Gran Sabana', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (70, 'Heres', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (71, 'Piar', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (72, 'Angostura  (Raúl Leoni)', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (73, 'Roscio', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (74, 'Sifontes', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (75, 'Sucre', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (76, 'Padre Pedro Chien', 6);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (77, 'Bejuma', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (78, 'Carlos Arvelo', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (79, 'Diego Ibarra', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (80, 'Guacara', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (81, 'Juan José Mora', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (82, 'Libertador', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (83, 'Los Guayos', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (84, 'Miranda', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (85, 'Montalbán', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (86, 'Naguanagua', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (87, 'Puerto Cabello', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (88, 'San Diego', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (89, 'San Joaquín', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (90, 'Valencia', 7);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (91, 'Anzoátegui', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (92, 'Tinaquillo', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (93, 'Girardot', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (94, 'Lima Blanco', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (95, 'Pao de San Juan Bautista', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (96, 'Ricaurte', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (97, 'Rómulo Gallegos', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (98, 'San Carlos', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (99, 'Tinaco', 8);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (100, 'Antonio Díaz', 9);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (101, 'Casacoima', 9);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (102, 'Pedernales', 9);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (103, 'Tucupita', 9);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (104, 'Acosta', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (105, 'Bolívar', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (106, 'Buchivacoa', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (107, 'Cacique Manaure', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (108, 'Carirubana', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (109, 'Colina', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (110, 'Dabajuro', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (111, 'Democracia', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (112, 'Falcón', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (113, 'Federación', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (114, 'Jacura', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (115, 'José Laurencio Silva', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (116, 'Los Taques', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (117, 'Mauroa', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (118, 'Miranda', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (119, 'Monseñor Iturriza', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (120, 'Palmasola', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (121, 'Petit', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (122, 'Píritu', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (123, 'San Francisco', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (124, 'Sucre', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (125, 'Tocópero', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (126, 'Unión', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (127, 'Urumaco', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (128, 'Zamora', 10);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (129, 'Camaguán', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (130, 'Chaguaramas', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (131, 'El Socorro', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (132, 'José Félix Ribas', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (133, 'José Tadeo Monagas', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (134, 'Juan Germán Roscio', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (135, 'Julián Mellado', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (136, 'Las Mercedes', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (137, 'Leonardo Infante', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (138, 'Pedro Zaraza', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (139, 'Ortíz', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (140, 'San Gerónimo de Guayabal', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (141, 'San José de Guaribe', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (142, 'Santa María de Ipire', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (143, 'Sebastián Francisco de Miranda', 11);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (144, 'Andrés Eloy Blanco', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (145, 'Crespo', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (146, 'Iribarren', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (147, 'Jiménez', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (148, 'Morán', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (149, 'Palavecino', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (150, 'Simón Planas', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (151, 'Torres', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (152, 'Urdaneta', 12);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (179, 'Alberto Adriani', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (180, 'Andrés Bello', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (181, 'Antonio Pinto Salinas', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (182, 'Aricagua', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (183, 'Arzobispo Chacón', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (184, 'Campo Elías', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (185, 'Caracciolo Parra Olmedo', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (186, 'Cardenal Quintero', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (187, 'Guaraque', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (188, 'Julio César Salas', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (189, 'Justo Briceño', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (190, 'Libertador', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (191, 'Miranda', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (192, 'Obispo Ramos de Lora', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (193, 'Padre Noguera', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (194, 'Pueblo Llano', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (195, 'Rangel', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (196, 'Rivas Dávila', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (197, 'Santos Marquina', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (198, 'Sucre', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (199, 'Tovar', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (200, 'Tulio Febres Cordero', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (201, 'Zea', 13);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (223, 'Acevedo', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (224, 'Andrés Bello', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (225, 'Baruta', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (226, 'Brión', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (227, 'Buroz', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (228, 'Carrizal', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (229, 'Chacao', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (230, 'Cristóbal Rojas', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (231, 'El Hatillo', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (232, 'Guaicaipuro', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (233, 'Independencia', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (234, 'Lander', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (235, 'Los Salias', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (236, 'Páez', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (237, 'Paz Castillo', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (238, 'Pedro Gual', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (239, 'Plaza', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (240, 'Simón Bolívar', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (241, 'Sucre', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (242, 'Urdaneta', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (243, 'Zamora', 14);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (258, 'Acosta', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (259, 'Aguasay', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (260, 'Bolívar', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (261, 'Caripe', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (262, 'Cedeño', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (263, 'Ezequiel Zamora', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (264, 'Libertador', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (265, 'Maturín', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (266, 'Piar', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (267, 'Punceres', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (268, 'Santa Bárbara', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (269, 'Sotillo', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (270, 'Uracoa', 15);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (271, 'Antolín del Campo', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (272, 'Arismendi', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (273, 'García', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (274, 'Gómez', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (275, 'Maneiro', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (276, 'Marcano', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (277, 'Mariño', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (278, 'Península de Macanao', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (279, 'Tubores', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (280, 'Villalba', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (281, 'Díaz', 16);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (282, 'Agua Blanca', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (283, 'Araure', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (284, 'Esteller', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (285, 'Guanare', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (286, 'Guanarito', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (287, 'Monseñor José Vicente de Unda', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (288, 'Ospino', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (289, 'Páez', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (290, 'Papelón', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (291, 'San Genaro de Boconoíto', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (292, 'San Rafael de Onoto', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (293, 'Santa Rosalía', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (294, 'Sucre', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (295, 'Turén', 17);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (296, 'Andrés Eloy Blanco', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (297, 'Andrés Mata', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (298, 'Arismendi', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (299, 'Benítez', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (300, 'Bermúdez', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (301, 'Bolívar', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (302, 'Cajigal', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (303, 'Cruz Salmerón Acosta', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (304, 'Libertador', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (305, 'Mariño', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (306, 'Mejía', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (307, 'Montes', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (308, 'Ribero', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (309, 'Sucre', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (310, 'Valdéz', 18);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (341, 'Andrés Bello', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (342, 'Antonio Rómulo Costa', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (343, 'Ayacucho', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (344, 'Bolívar', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (345, 'Cárdenas', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (346, 'Córdoba', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (347, 'Fernández Feo', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (348, 'Francisco de Miranda', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (349, 'García de Hevia', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (350, 'Guásimos', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (351, 'Independencia', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (352, 'Jáuregui', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (353, 'José María Vargas', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (354, 'Junín', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (355, 'Libertad', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (356, 'Libertador', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (357, 'Lobatera', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (358, 'Michelena', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (359, 'Panamericano', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (360, 'Pedro María Ureña', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (361, 'Rafael Urdaneta', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (362, 'Samuel Darío Maldonado', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (363, 'San Cristóbal', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (364, 'Seboruco', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (365, 'Simón Rodríguez', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (366, 'Sucre', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (367, 'Torbes', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (368, 'Uribante', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (369, 'San Judas Tadeo', 19);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (370, 'Andrés Bello', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (371, 'Boconó', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (372, 'Bolívar', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (373, 'Candelaria', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (374, 'Carache', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (375, 'Escuque', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (376, 'José Felipe Márquez Cañizalez', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (377, 'Juan Vicente Campos Elías', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (378, 'La Ceiba', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (379, 'Miranda', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (380, 'Monte Carmelo', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (381, 'Motatán', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (382, 'Pampán', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (383, 'Pampanito', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (384, 'Rafael Rangel', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (385, 'San Rafael de Carvajal', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (386, 'Sucre', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (387, 'Trujillo', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (388, 'Urdaneta', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (389, 'Valera', 20);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (390, 'Vargas', 21);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (391, 'Arístides Bastidas', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (392, 'Bolívar', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (407, 'Bruzual', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (408, 'Cocorote', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (409, 'Independencia', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (410, 'José Antonio Páez', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (411, 'La Trinidad', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (412, 'Manuel Monge', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (413, 'Nirgua', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (414, 'Peña', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (415, 'San Felipe', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (416, 'Sucre', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (417, 'Urachiche', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (418, 'José Joaquín Veroes', 22);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (441, 'Almirante Padilla', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (442, 'Baralt', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (443, 'Cabimas', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (444, 'Catatumbo', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (445, 'Colón', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (446, 'Francisco Javier Pulgar', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (447, 'Páez', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (448, 'Jesús Enrique Losada', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (449, 'Jesús María Semprún', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (450, 'La Cañada de Urdaneta', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (451, 'Lagunillas', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (452, 'Machiques de Perijá', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (453, 'Mara', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (454, 'Maracaibo', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (455, 'Miranda', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (456, 'Rosario de Perijá', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (457, 'San Francisco', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (458, 'Santa Rita', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (459, 'Simón Bolívar', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (460, 'Sucre', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (461, 'Valmore Rodríguez', 23);
+Insert into PREVISION.MUNICIPIOS
+   (CD_MUNICIPIO, DE_MUNICIPIO, CD_ESTADO)
+ Values
+   (462, 'Libertador', 24);
+COMMIT;
