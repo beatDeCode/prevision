@@ -12,7 +12,9 @@ class ContratoCertificadoEndosoModel extends Model{
     public $timestamps=false;
     public $incrementing=false;
     public $fillable=[
+    "cd_grupo_familiar",
     "cd_persona_intermediario",
+    "cd_cobertura_detalle",
     "cd_domicilio",
     "tp_pago",
     "cd_usuario",
@@ -53,7 +55,7 @@ class ContratoCertificadoEndosoModel extends Model{
     function fnCreate($request,$contrato,$domicilio){
         $usuarioElaborador=Session::get('user')['cd_usuario'];
         //$empresa=Session::get('user')['cd_empresa'];
-        $fecha=date('d-M-y');
+        $fecha=date("Y/m/d");
         $arrayContratoEndoso=array(
             "cd_persona_intermediario"=>2,
             "cd_domicilio"=>$domicilio,
@@ -66,7 +68,9 @@ class ContratoCertificadoEndosoModel extends Model{
             "cd_plan_pago"=>$request->post('cd_plan_pago'),
             "cd_empresa"=>15,
             "cd_producto"=>$request->post('cd_producto'),
-            "nu_contrato"=>$contrato
+            "nu_contrato"=>$contrato,
+            "cd_cobertura_detalle"=>$request->post('mt_suma_asegurada'),
+            "cd_grupo_familiar"=>$request->post('cd_grupo_familiar')
         );
         $this->create($arrayContratoEndoso);
     }

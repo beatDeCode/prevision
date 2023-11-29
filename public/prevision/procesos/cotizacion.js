@@ -644,7 +644,7 @@ function fnGuardarContrato(){
 
     solicitud.push( {name:'cd_producto',value: $('select[name="cd_producto"] option:selected').val() });
     solicitud.push( {name:'cd_cobertura',value: $('select[name="cd_cobertura"] option:selected').val() });
-    solicitud.push( {name:'cd_cobertura_detalle',value: $('select[name="cd_cobertura_detalle"] option:selected').val() });
+    solicitud.push( {name:'mt_suma_asegurada',value: $('select[name="mt_suma_asegurada"] option:selected').val() });
     solicitud.push( {name:'cd_plan_pago',value: $('select[name="cd_plan_pago"] option:selected').val() });
     solicitud.push( {name:'cd_grupo_familiar',value: $('select[name="cd_grupo_familiar"] option:selected').val() });
     solicitud.push( {name:'cd_tipo_calculo',value: $('select[name="cd_tipo_calculo"] option:selected').val() });
@@ -659,9 +659,9 @@ function fnGuardarContrato(){
     console.log(cantidadDeClonacion);
     if(cantidadDeClonacion>0){
         for(var a=0;a<cantidadDeClonacion;a++){
-            solicitud.push( {name:'cd_parentesco_asegurado'+a,value: $('select[name="cd_parentesco_asegurado'+a+'"]option:selected').val() });
+            solicitud.push( {name:'cd_parentesco_asegurado'+a,value: $('select[name="cd_parentesco_asegurado'+a+'"] option:selected').val() });
             solicitud.push( {name:'nm_persona1_asegurado'+a,value: $('input[name="nm_persona1_asegurado'+a+'"]').val() });
-            solicitud.push( {name:'tp_documento_asegurado'+a,value: $('select[name="tp_documento_asegurado'+a+'"]option:selected').val() });
+            solicitud.push( {name:'tp_documento_asegurado'+a,value: $('select[name="tp_documento_asegurado'+a+'"] option:selected').val() });
             solicitud.push( {name:'nu_documento_asegurado'+a,value: $('input[name="nu_documento_asegurado'+a+'"]').val() });
             solicitud.push( {name:'cd_sexo_asegurado'+a,value: $('select[name="cd_sexo_asegurado'+a+'"] option:selected').val() });
             solicitud.push( {name:'fe_nacimiento_asegurado'+a,value: $('input[name="fe_nacimiento_asegurado'+a+'"]').val() });
@@ -686,6 +686,16 @@ function fnGuardarContrato(){
         console.log(response);
         var JSONParse=JSON.parse(response);
         var contenido=JSONParse.message.content;
+        
+        if(JSONParse.httpResponse==200){
+            fnTransaccionConfirmada('Transaccion','Se ha emitido el contrato #'+contenido);
+                window.location.replace('http://10.10.0.202:9003/sgd.reportes-xlsx/PREVISON_EMISION/NU_CONTRATO-'+contenido);
+                setInterval(function(){
+                    
+                    window.location.replace('/prevision.procesos.cartera.cotizacion');
+                },3000);
+            
+        }
     }).fail(function(a,b,c){
         console.log(a,b,c);
     });

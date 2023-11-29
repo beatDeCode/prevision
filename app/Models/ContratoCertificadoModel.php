@@ -44,7 +44,8 @@ class ContratoCertificadoModel extends Model{
     "fe_emision_certificado.required"=>"El campo está vacío.",
     "nu_contrato.required"=>"El campo está vacío."];
     function fnCreate($request,$titular,$contrato){
-        $fecha= date('d-M-y');
+        $fecha=date("Y/m/d");
+        $fechaHasta=date("Y/m/d",strtotime('+1 year'));
         $usuarioElaborador=Session::get('user')['cd_usuario'];
         //$empresa=Session::get('user')['cd_empresa'];
         $arrayContrato=array(
@@ -54,7 +55,7 @@ class ContratoCertificadoModel extends Model{
             'cd_empresa'=>15,
             'nu_contrato'=>$contrato,
             'nu_certificado'=>0,
-            'fe_hasta'=>$fecha,//Carbon::now()->addYear()->format('Y/m/d'),
+            'fe_hasta'=>$fechaHasta,//Carbon::now()->addYear()->format('Y/m/d'),
             'fe_desde'=>$fecha,
             'fe_emision_certificado'=>$fecha,
 

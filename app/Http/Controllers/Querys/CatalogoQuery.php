@@ -89,6 +89,11 @@ class CatalogoQuery{
    const busquedaSecuenciaPersonaDomiclio="
       select personadomiciliobancario_seq.nextval secuencia from dual
    ";
+   const busquedaSecuenciaRecibo="
+   select recibos_seq.nextval secuencia from dual
+   ";
+
+   
 
    //Bancos
 
@@ -124,9 +129,22 @@ class CatalogoQuery{
    union all
    select 2 value, 'Cálculo Por Prima' text from dual";
 
+   const busquedaTasaRiesgoPorAsegurado='select 
+   po_tasa_riesgo tasa_riesgo 
+   from productotasariesgo
+   where cd_producto=:cd_producto
+   and cd_grupo_familiar=:cd_grupo_familiar';
+
+  
+
 
    //Parentescos
    const busquedaParentescos='select cd_parentesco value, de_parentesco text from parentescos where cd_parentesco!=1';
+
+   const busquedaConfirmarAdicional="
+   select count(1) cuenta from grupofamiliarparentesco
+   where cd_parentesco=:cd_parentesco
+   and cd_grupo_familiar=:cd_grupo_familiar";
 
    //Sexos
 
@@ -142,4 +160,7 @@ class CatalogoQuery{
 
    //Intermediarios
    const busquedaIntermediarios="select 1 value, 'Directo' text from dual";
+
+   //
+
 }

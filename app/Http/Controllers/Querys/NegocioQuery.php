@@ -210,6 +210,27 @@ class NegocioQuery{
     ";
 
     const busquedaCodigoVerificadorBanco='select count(1) cuenta from bancos where cd_verificador=substr( :nu_cuenta ,1,4)';
-    
-    
+
+    const busquedaInformacionContrato='
+    select 
+        (select ca_recibos from planpagodetalle ppde where ppde.cd_plan_pago=ccen.CD_PLAN_PAGO ) ca_recibo,
+        (select nu_meses_recibo from planpagodetalle ppde where ppde.cd_plan_pago=ccen.CD_PLAN_PAGO ) nu_meses_recibo,
+        round((
+        ((select mt_suma_asegurada from coberturadetalle where cd_cobertura_detalle=ccen.cd_cobertura_detalle ) *
+        (select po_tasa_riesgo from productotasariesgo where cd_producto=ccen.cd_producto and cd_grupo_familiar=ccen.cd_grupo_familiar) )
+        /100
+        )/(select ca_recibos from planpagodetalle ppde where ppde.cd_plan_pago=ccen.CD_PLAN_PAGO ),2) mt_prima_recibo,
+        ccer.nu_certificado,
+        ccer.cd_producto,
+        ccen.nu_endoso,
+        ccer.nu_contrato
+    from prevision.contrato cont, PREVISION.CONTRATOCERTIFICADO ccer, PREVISION.CONTRATOCERTIFICADOENDOSO ccen
+    where cont.nu_contrato=:cd_contrato
+    and cont.CD_EMPRESA = ccer.CD_EMPRESA
+    and cont.CD_PRODUCTO = ccer.CD_PRODUCTO
+    and cont.NU_CONTRATO = ccer.NU_CONTRATO
+    and ccer.CD_EMPRESA = ccen.CD_EMPRESA
+    and ccer.NU_CERTIFICADO = ccen.NU_CERTIFICADO
+    and ccer.NU_CONTRATO = ccen.NU_CONTRATO
+    and ccer.NU_ULTIMO_ENDOSO=ccen.NU_ENDOSO';
 }

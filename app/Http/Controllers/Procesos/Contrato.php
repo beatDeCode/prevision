@@ -9,6 +9,7 @@ use App\Models\PersonasModel;
 use App\Models\ContratoModel;
 use App\Models\ContratoCertificadoModel;
 use App\Models\ContratoCertificadoEndosoModel;
+use App\Models\RecibosModel;
 
 class Contrato extends Controller{
     public function fnCotizacion(){
@@ -286,6 +287,7 @@ class Contrato extends Controller{
     }
 
     function fnEmision(Request $request){
+        $retorno='';
         try {
             $instanciaPersonas=new PersonasModel;
             $secuenciaPersona=$instanciaPersonas->fnCreateTitular($request);
@@ -298,33 +300,26 @@ class Contrato extends Controller{
 
             $instanciaContratoCertificadoEndoso=new ContratoCertificadoEndosoModel;
             $instanciaContratoCertificadoEndoso->fnCreate($request,$secuenciaContrato,'');
+            
+            $instanciaPersonas->fnCreateAsegurados($request,$secuenciaContrato,$secuenciaPersona);
+            
+            $instanciaRecibos=new RecibosModel;
+            $instanciaRecibos->fnCreateFacturacion($secuenciaContrato);
 
-            /*$arrayAsegurados=array(
-                'nm_persona1_asegurado'=>$request->post('nm_persona1_asegurado'),
-                'ap_persona1_asegurado'=>$request->post('ap_persona1_asegurado'),
-                'tp_documento_asegurado'=>$request->post('tp_documento_asegurado'),
-                'nu_documento_asegurado'=>$request->post('nu_documento_asegurado'),
-                'fe_nacimiento_asegurado'=>$request->post('fe_nacimiento_asegurado'),
-                'cd_sexo_asegurado'=>$request->post('cd_sexo_asegurado'),
-                'cd_parentesco_asegurado'=>$request->post('cd_parentesco_asegurado'),
-            );
-            $arrayAseguradosExtra=array();
-            $contadorClonacion=$request->post('ca_clonacion');
-            if($contadorClonacion>0){
-                for($a=0;$a<$contadorClonacion;$a++){
-                    $arrayAseguradosExtra['nm_persona1_asegurado'.$a]=$request->post('nm_persona1_asegurado'.$a);
-                    $arrayAseguradosExtra['ap_persona1_asegurado'.$a]=$request->post('ap_persona1_asegurado'.$a);
-                    $arrayAseguradosExtra['tp_documento_asegurado'.$a]=$request->post('tp_documento_asegurado'.$a);
-                    $arrayAseguradosExtra['nu_documento_asegurado'.$a]=$request->post('nu_documento_asegurado'.$a);
-                    $arrayAseguradosExtra['fe_nacimiento_asegurado'.$a]=$request->post('fe_nacimiento_asegurado'.$a);
-                    $arrayAseguradosExtra['cd_sexo_asegurado'.$a]=$request->post('cd_sexo_asegurado'.$a);
-                    $arrayAseguradosExtra['cd_parentesco_asegurado'.$a]=$request->post('cd_parentesco_asegurado'.$a);
-                }
-            }*/
+            $retorno=array(
+                'httpResponse'=>200,
+                'message'=>array(
+                    'validate'=>'',
+                    'content'=>$secuenciaContrato,
+                    'object'=>array(),
+                ),
+                'error'=>1
+            ); 
             
         } catch (Exception $th) {
             print_r($th);
         }
+        return json_encode($retorno);
     }
 
 
